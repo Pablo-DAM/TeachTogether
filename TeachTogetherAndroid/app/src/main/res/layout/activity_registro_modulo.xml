@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Módulo"
+        android:textSize="24sp"
+        android:paddingTop="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewCodigoModuloLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduce el código del módulo:"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextCodigoModulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código del módulo"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_marginTop="270dp"
+        android:layout_height="wrap_content"
+        android:text="Registrarse" />
+
+    <Button
+        android:id="@+id/buttonVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Volver" />
+</LinearLayout>
